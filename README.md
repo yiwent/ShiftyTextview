@@ -83,4 +83,4 @@
     }
 ```
 ## Thanks
-[ShiftyTextview](https://github.com/Bakumon/ShiftyTextview)
+[NumberAnimTextView](https://github.com/Bakumon/NumberAnimTextView)
