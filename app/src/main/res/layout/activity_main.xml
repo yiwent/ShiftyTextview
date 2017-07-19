@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.yiwent.viewlib.ShiftyTextview
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:textSize="28sp"
+        app:useCommaFormat="true"
+        app:runWhenChange="false"/>
+
+
+    <com.yiwent.viewlib.ShiftyTextview
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="47dp"
+        android:textSize="28sp"
+        app:useCommaFormat="false"
+        app:runWhenChange="false"
+        />
+
+    <com.yiwent.viewlib.ShiftyTextview
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="52dp"
+        android:textSize="28sp"
+        app:useCommaFormat="true"
+        app:runWhenChange="false"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        android:onClick="start"
+        android:text="start"/>
+
+</LinearLayout>

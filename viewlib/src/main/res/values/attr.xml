@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShiftyTextview">
+        <!--动画时间-->
+        <attr name="duration" format="integer"></attr>
+        <!--最小的数，小于这个数没有动画，默认为0.1-->
+        <attr name="minNum" format="float"></attr>
+        <!--动画开始的数-->
+        <attr name="numStart" format="string|reference"></attr>
+        <!--动画最后的数-->
+        <attr name="numEnd" format="string|reference"></attr>
+        <!--前缀-->
+        <attr name="prefixString" format="string|reference"></attr>
+        <!--后缀-->
+        <attr name="postfixString" format="string|reference"></attr>
+        <!--是否使用动画-->
+        <attr name="isEnableAnim" format="boolean"></attr>
+        <!--是否使用每三位数字一个逗号-->
+        <attr name="useCommaFormat" format="boolean"></attr>
+        <!--是否当内容改变的时候使用动画，不改变则不使用动画-->
+        <attr name="runWhenChange" format="boolean"></attr>
+
+    </declare-styleable>
+</resources>
