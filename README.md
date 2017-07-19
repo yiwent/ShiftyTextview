@@ -1,5 +1,6 @@
 # ShiftyTextview
 具有数字增加动画的 TextView (A increasing Number TextView with animation)
+    
 ![ShiftyTextview演示gif](https://github.com/yiwent/ShiftyTextview/blob/master/gif/GIF.gif)
 
 ## Features
