@@ -82,5 +82,31 @@
             compile 'com.github.yiwent:ShiftyTextviewLibrary:1.1.0'
     }
 ```
+##  使用
+
+#### Coding in layout xml
+```java
+<com.yiwent.viewlib.ShiftyTextview
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="47dp"
+        android:textSize="28sp"
+        app:useCommaFormat="false"
+        app:runWhenChange="false"
+        />
+```
+#### Coding in the Activity or Fragment
+```java
+        mShiftyTextview.setPrefixString("¥");
+        mShiftyTextview.setNumberString("99998.123456");
+
+        //        mShiftyTextview1.setEnableAnim(true);
+        mShiftyTextview1.setNumberString("123456.09");
+
+        mShiftyTextview2.setPostfixString("%");
+        mShiftyTextview2.setNumberString("99.75");
+```
 ## Thanks
 [NumberAnimTextView](https://github.com/Bakumon/NumberAnimTextView)
