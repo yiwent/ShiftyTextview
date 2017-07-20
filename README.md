@@ -79,7 +79,7 @@
 打开app的module中的build.gradle，在dependencies{}中，添加依赖，如下：
 ```java
     dependencies {
-            compile 'com.github.yiwent:ShiftyTextviewLibrary:1.1.0'
+            compile 'com.github.yiwent:ShiftyTextview:1.1.0'
     }
 ```
 ##  使用
